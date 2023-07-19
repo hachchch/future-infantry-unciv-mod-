@@ -1,0 +1,19 @@
+[
+        {
+                "name": "Future Infantry",
+                "cost": 500,
+                "requiredTech": "Nanotechnology",
+                "uniques": ["Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","Ignores Zone of Control","Can transform to [Teleporter]"],
+                "strength": 89,
+                "movement": 2,
+                "unitType": "Gunpowder",
+        },
+        {
+                "name": "Teleporter",
+                "cost": 1,
+                "uniques": ["Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","Ignores Zone of Control","Can transform to [Future Infantry]","May Paradrop up to [999] tiles from inside friendly territory"],
+                "movement": 0,
+                "strength": 1,
+                "unitType": "Gunpowder",
+        }
+]
